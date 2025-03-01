@@ -2,8 +2,8 @@
 using namespace std;
 
 void pattern5(int n){
-    for(int i = n; i >=1; i--){
-        for(int j = i; j >=1; j--){
+    for(int i = 0; i <=n; i++){
+        for(int j = 0; j <n-i+1; j++){
             cout << "* ";
         }
         cout << endl;
